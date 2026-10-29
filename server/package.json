@@ -1,0 +1,16 @@
+{
+  "name": "netshield-ai-server",
+  "version": "1.0.0",
+  "description": "NetShield AI Real-Time Backend & Socket.IO Coordinator",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "socket.io": "^4.8.0",
+    "dotenv": "^16.4.5"
+  }
+}
+

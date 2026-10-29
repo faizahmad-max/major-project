@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #080b11;
+    color: #cbd5e1;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    letter-spacing: -0.011em;
+  }
+}
+
+/* Crisp Industrial Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #0d111a;
+}
+::-webkit-scrollbar-thumb {
+  background: #28344d;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3d4d70;
+}
+
+/* High-density Enterprise Table utilities */
+.table-dense th {
+  padding: 0.5rem 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+  color: #94a3b8;
+  background-color: #0d111a;
+  border-bottom: 1px solid #1f283c;
+}
+
+.table-dense td {
+  padding: 0.45rem 0.75rem;
+  font-size: 0.75rem;
+  border-bottom: 1px solid rgba(31, 40, 60, 0.6);
+}
+
+.table-dense tr:hover {
+  background-color: rgba(24, 31, 46, 0.7);
+}
+
+/* Subtle border lines */
+.border-subtle {
+  border-color: #1f283c;
+}

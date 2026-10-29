@@ -1,0 +1,290 @@
+[
+  {
+    "timestamp": "2026-10-26 16:53:36",
+    "dataset_name": "Curated Demonstration IDS Dataset (CIC-IDS2017/UNSW-NB15 Schema)",
+    "train_samples": 3200,
+    "test_samples": 800,
+    "models": {
+      "Isolation Forest": {
+        "training_duration_sec": 1.15,
+        "samples_trained": 3200,
+        "contamination": 0.1,
+        "anomaly_rate_detected": 0.1,
+        "score_mean": 0.0857,
+        "score_min": -0.109,
+        "score_max": 0.1835,
+        "test_precision": 0.973,
+        "test_recall": 0.18,
+        "test_f1": 0.3038,
+        "test_fpr": 0.005,
+        "avg_latency_ms": 0.218
+      },
+      "Random Forest": {
+        "training_duration_sec": 0.521,
+        "samples_trained": 3200,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "false_positive_rate": 0.0,
+        "classes": [
+          "BENIGN",
+          "BruteForce",
+          "DataExfiltration",
+          "DoS",
+          "PortScan"
+        ],
+        "confusion_matrix": [
+          [
+            1600,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            320,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            320,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            480,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            480
+          ]
+        ],
+        "avg_latency_ms": 0.088
+      },
+      "XGBoost": {
+        "training_duration_sec": 1.275,
+        "samples_trained": 3200,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "false_positive_rate": 0.0,
+        "classes": [
+          "BENIGN",
+          "BruteForce",
+          "DataExfiltration",
+          "DoS",
+          "PortScan"
+        ],
+        "confusion_matrix": [
+          [
+            1600,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            320,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            320,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            480,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            480
+          ]
+        ],
+        "avg_latency_ms": 0.011
+      },
+      "Autoencoder": {
+        "training_duration_sec": 8.177,
+        "samples_trained": 1600,
+        "epochs": 25,
+        "final_reconstruction_loss": 0.01385,
+        "reconstruction_error_mean": 0.00771,
+        "reconstruction_error_std": 0.00585,
+        "anomaly_threshold_mse": 0.02234,
+        "test_precision": 0.978,
+        "test_recall": 1.0,
+        "test_f1": 0.9889,
+        "test_fpr": 0.0225,
+        "avg_latency_ms": 0.005
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-26 19:39:16",
+    "dataset_name": "Loaded from network_traffic_benchmark.csv",
+    "train_samples": 3200,
+    "test_samples": 800,
+    "models": {
+      "Isolation Forest": {
+        "training_duration_sec": 0.735,
+        "samples_trained": 3200,
+        "contamination": 0.1,
+        "anomaly_rate_detected": 0.1,
+        "score_mean": 0.0857,
+        "score_min": -0.109,
+        "score_max": 0.1835,
+        "test_precision": 0.973,
+        "test_recall": 0.18,
+        "test_f1": 0.3038,
+        "test_fpr": 0.005,
+        "avg_latency_ms": 0.138
+      },
+      "Random Forest": {
+        "training_duration_sec": 0.766,
+        "samples_trained": 3200,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "false_positive_rate": 0.0,
+        "classes": [
+          "BENIGN",
+          "BruteForce",
+          "DataExfiltration",
+          "DoS",
+          "PortScan"
+        ],
+        "confusion_matrix": [
+          [
+            1600,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            320,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            320,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            480,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            480
+          ]
+        ],
+        "avg_latency_ms": 0.447
+      },
+      "XGBoost": {
+        "training_duration_sec": 1.48,
+        "samples_trained": 3200,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "false_positive_rate": 0.0,
+        "classes": [
+          "BENIGN",
+          "BruteForce",
+          "DataExfiltration",
+          "DoS",
+          "PortScan"
+        ],
+        "confusion_matrix": [
+          [
+            1600,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            320,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            320,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            480,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            480
+          ]
+        ],
+        "avg_latency_ms": 0.032
+      },
+      "Autoencoder": {
+        "training_duration_sec": 20.352,
+        "samples_trained": 1600,
+        "epochs": 25,
+        "final_reconstruction_loss": 0.01509,
+        "reconstruction_error_mean": 0.00868,
+        "reconstruction_error_std": 0.00811,
+        "anomaly_threshold_mse": 0.02897,
+        "test_precision": 0.995,
+        "test_recall": 1.0,
+        "test_f1": 0.9975,
+        "test_fpr": 0.005,
+        "avg_latency_ms": 0.028
+      }
+    }
+  }
+]

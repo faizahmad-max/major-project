@@ -1,0 +1,22 @@
+{
+  "input_dim": 23,
+  "latent_dim": 8,
+  "threshold": 0.028967985418933473,
+  "metrics": {
+    "training_duration_sec": 20.352,
+    "samples_trained": 1600,
+    "epochs": 25,
+    "final_reconstruction_loss": 0.01509,
+    "reconstruction_error_mean": 0.00868,
+    "reconstruction_error_std": 0.00811,
+    "anomaly_threshold_mse": 0.02897,
+    "test_precision": 0.995,
+    "test_recall": 1.0,
+    "test_f1": 0.9975,
+    "test_fpr": 0.005,
+    "avg_latency_ms": 0.028
+  },
+  "is_trained": true,
+  "training_time": "2026-10-26 19:39:41",
+  "dataset_name": "Loaded from network_traffic_benchmark.csv"
+}
